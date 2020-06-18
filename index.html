@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/uikit.min.css">
+    <link rel="stylesheet" href="css/jquery.lineProgressbar.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responciv.css">
+</head>
+
+<body>
+    <!--  Hearer part start   -->
+
+    <header id="hero">
+        <div class="overlay">
+            <nav style="z-index: 980;" uk-sticky="top: 200; bottom: #animation">
+                <div class="row">
+                    <a class="nav-icon" href="#"> Ruhit </a>
+
+                    <ul class="main-nav">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#protfolio">Protfolio</a></li>
+                        <li><a href="#sale">Plan</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="row">
+                <div class="header-text">
+                    <h1 uk-scrollspy="cls: uk-animation-slide-bottom;">Web <span>Designer • Developer </span> </h1>
+                    <p uk-scrollspy="cls: uk-animation-slide-bottom; delay: 300;">HTML, CSS, JAVASCRIPT, JQUERY, BOOTSTRAP, SAAS, PHP, WORDPRESS</p>
+                    <a href="#"> Hire Me</a>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <!--  About Section   -->
+
+    <section id="about">
+        <h2>About <span>Me</span></h2>
+        <h5>First you should know</h5>
+        <hr class="uk-divider-icon">
+
+        <div class="row">
+            <div class="about-container">
+                <div class="about-container-item">
+                    Hello, My name is Ruhit! I'm a freelance web designer and front end developer. My job is to build your website so that it is functional and user-friendly but at the same time attractive.
+                    <br><br>
+                    I have a strong passion for the creativity and discipline that goes into front-end development. Keeping in mind scalability and clean code that is maintainable and readable.
+                    <br><br>
+                    I’ve worked with companies of all shapes and sizes, so contact me if you’d like to work together on your next project. In my free time, I enjoy being outdoors, listening to music, traveling and experiencing new and exciting adventures.
+                </div>
+                <div class="about-container-item">
+				
+				<h6>HTML & CSS</h6>
+					<div class="counters"> 
+					<span class="counter">95</span> %
+					</div>
+					<div class="meter">
+						<span style="width:95%;"><span class="progress"></span></span>
+					</div>
+					
+				<h6>JAVESCRIPT & JQUARY</h6>
+					<div class="counters"> 
+					<span class="counter">80</span> %
+					</div>
+					<div class="meter">
+						<span style="width:80%;"><span class="progress"></span></span>
+					</div>
+					
+				<h6>BOOTSTRAP & SCSS</h6>
+					<div class="counters"> 
+					<span class="counter">90</span> %
+					</div>
+					<div class="meter">
+						<span style="width:90%;"><span class="progress"></span></span>
+					</div>
+					
+				<h6>PHP</h6>
+					<div class="counters"> 
+					<span class="counter">70</span> %
+					</div>
+					<div class="meter">
+						<span style="width:70%;"><span class="progress"></span></span>
+					</div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="services">
+
+        <div class="row">
+            <h2>My <span> Services</span></h2>
+            <h5>I provide a complete list of best wordpress services</h5>
+            <hr style="color:#000;" class="uk-divider-icon">
+
+            <div class="services-icon">
+                <div class="services-item">
+                    <ion-icon name="logo-wordpress"></ion-icon>
+                    <h3>Web Design <span>& Development</span></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus ratione architecto voluptate a ab obcaecati nesciunt maxime dolores ipsam laboriosam.</p>
+                </div>
+                <div class="services-item">
+                    <ion-icon name="cart-outline"></ion-icon>
+                    <h3><span>e-Commerce</span><br> Solutions</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus ratione architecto voluptate a ab obcaecati nesciunt maxime dolores ipsam laboriosam.</p>
+                </div>
+                <div class="services-item">
+                    <ion-icon name="rocket-outline"></ion-icon>
+                    <h3><span>Page </span>Speed <br>Optimization</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus ratione architecto voluptate a ab obcaecati nesciunt maxime dolores ipsam laboriosam.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <section id="protfolio">
+        <div class="row">
+            <h2>My <span>Latest</span> Works</h2>
+            <h5>An eye for detail makes my works excellent</h5>
+            <hr style="color:#000;" class="uk-divider-icon">
+
+
+            <div class="button"> 
+			<button type="button" data-filter="all">All</button> 
+			<button type="button" data-filter=".web-design">WebDesign</button> 
+			<button type="button" data-filter=".web-dev">WebDevelopment</button> 
+			<button type="button" data-filter=".wp">WordPress</button> 
+			</div>
+			
+			
+            <div class="grid-protfolio-container" uk-lightbox="animation: slide">
+                <div class="grid-protfolio-item mix web-design wp"> <a href="img/1.jpg"> <img src="img/1.jpg" alt=""> </a> </div>
+                <div class="grid-protfolio-item mix web-dev"> <a href="img/2.jpg"> <img src="img/2.jpg" alt=""> </a> </div>
+                <div class="grid-protfolio-item mix web-design"> <a href="img/3.jpg"> <img src="img/3.jpg" alt=""> </a> </div>
+                <div class="grid-protfolio-item mix web-dev wp"> <a href="img/4.jpg"> <img src="img/4.jpg" alt=""> </a> </div>
+                <div class="grid-protfolio-item mix web-dev"> <a href="img/1.jpg"> <img src="img/1.jpg" alt=""> </a> </div>
+                <div class="grid-protfolio-item mix web-dev web-design"> <a href="img/3.jpg"> <img src="img/4.jpg" alt=""> </a> </div>
+            </div>
+		
+        </div>
+    </section>
+
+
+    <section id="me">
+        <div class="row">
+            <h2>Why <span>Choose</span> ME</h2>
+            <h5>Subtitle for icon service with image module</h5>
+            <hr style="color:#000;" class="uk-divider-icon">
+            <div class="choice">
+                <div class="choice-item left-side">
+                    <div class="ctn-1">
+                        <ion-icon name="megaphone-outline"></ion-icon>
+                        <h4>Responsive Web Design</h4>
+                        <p>I will provide you excellent web design services. Your website will be loaded first and it will show perfectly every device. I believe in providing the best experience, designs, and results.</p>
+                    </div>
+                    <br>
+                    <div class="ctn-2">
+                        <ion-icon name="call-outline"></ion-icon>
+                        <h4>Responsive Web Design</h4>
+                        <p>I will provide you excellent web design services. Your website will be loaded first and it will show perfectly every device. I believe in providing the best experience, designs, and results.</p>
+                    </div>
+
+
+
+                </div>
+                <div class="choice-item my-img">
+                    <div class="ime">
+
+                        <img src="img/ruhit.jpg" uk-scrollspy="cls: uk-animation-shake; delay: 1000;" alt="ruhit">
+
+                    </div>
+
+                </div>
+                <div class="choice-item right-side">
+                    <div class="ctn-3">
+                        <ion-icon name="logo-wordpress"></ion-icon>
+                        <h4>Responsive Web Design</h4>
+                        <p>I will provide you excellent web design services. Your website will be loaded first and it will show perfectly every device. I believe in providing the best experience, designs, and results.</p>
+                    </div>
+                    <br>
+                    <div class="ctn-4">
+                        <ion-icon name="aperture-outline"></ion-icon>
+                        <h4>Responsive Web Design</h4>
+                        <p>I will provide you excellent web design services. Your website will be loaded first and it will show perfectly every device. I believe in providing the best experience, designs, and results.</p>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <section id="testomonial">
+        <div class="row">
+            <h2>Why <span>Choose</span> ME</h2>
+            <h5>Subtitle for icon service with image module</h5>
+            <hr style="color:#000;" class="uk-divider-icon">
+
+            <div class="testomonial-container">
+                <div class="testomonial-item">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus et delectus officiis, facere nobis porro, possimus corporis quasi odio ipsum qui ea iusto dolor, non ducimus! Numquam nihil ex sit!</p>
+                    <div class="t-img">
+                        <img src="img/Phil.jpg" alt="phil">
+                        <span>Phil deo</span>
+                    </div>
+                </div>
+                <div class="testomonial-item">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus et delectus officiis, facere nobis porro, possimus corporis quasi odio ipsum qui ea iusto dolor, non ducimus! Numquam nihil ex sit!</p>
+                    <div class="t-img">
+                        <img src="img/Phil.jpg" alt="phil">
+                        <span>Phil deo</span>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+    <section id="sale">
+        <div class="row">
+            <h2>See <span> My Plans</span></h2>
+            <h5>Find the plan that fits your needs</h5>
+            <hr style="color:#000;" class="uk-divider-icon">
+
+
+            <div class="sale-container">
+                <div class="sale-item">
+                    <h5>Start Up</h5>
+                    <span>$200</span>
+                    <p>
+                        WordPress Install <br>
+                        Responsive Design <br>
+                        5 Pages Website Design <br>
+                        E-Commerce Functionality <br>
+                        Automatic Backup <br>
+                        Free Website Transfer <br>
+                        Website Security <br>
+                        Revision Unlimited
+                    </p>
+                    <a href="#"> Order Now </a>
+                </div>
+                <div class="sale-item">
+                    <h5>Start Up</h5>
+                    <div class="sticker">
+                        <h6>Top Sale</h6>
+                    </div>
+                    <span>$700</span>
+                    <p>
+                        WordPress Install <br>
+                        Responsive Design <br>
+                        5 Pages Website Design <br>
+                        E-Commerce Functionality <br>
+                        Automatic Backup <br>
+                        Free Website Transfer <br>
+                        Website Security <br>
+                        Revision Unlimited
+                    </p>
+                    <a href="#"> Order Now </a>
+                </div>
+                <div class="sale-item">
+                    <h5>Start Up</h5>
+                    <span>$500</span>
+                    <p>
+                        WordPress Install <br>
+                        Responsive Design <br>
+                        5 Pages Website Design <br>
+                        E-Commerce Functionality <br>
+                        Automatic Backup <br>
+                        Free Website Transfer <br>
+                        Website Security <br>
+                        Revision Unlimited
+                    </p>
+                    <a href="#"> Order Now </a>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <section id="contact">
+        <div class="row">
+            <h2>Contact <span> Me</span></h2>
+            <h5>I'd really love to hear your feedback</h5>
+            <hr style="color:#000;" class="uk-divider-icon">
+            
+            <div class="contact-container">
+                <div class="contact-item">
+                    <div class="con-1">
+                                               <div class="rt-part">
+                            <ion-icon name="call-outline"></ion-icon>
+                        </div>
+                        <div class="lt-part">   
+                            Call us
+                            +88 01742772705
+                        </div>
+                    </div>
+                    <div class="con-2">
+                        <div class="rt-part">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+                        <div class="lt-part">   
+                            Address
+                            Dhaka . Bangladesh
+                        </div>
+
+                    <div class="con-2">
+                        <div class="rt-part">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+                        <div class="lt-part">   
+                            Say hello <br>
+                            ruhitbaidya01@gmail.com
+                        </div>
+
+                    </div>
+                    </div>
+
+                </div>
+                <div class="contact-item">
+                    
+                    <div class="name space">
+                        <div class="first-name">
+                            <input type="text" placeholder="Name">
+                        </div>
+                        <div class="last-name">
+                            <input type="text" placeholder="Last Name">
+                        </div>
+                    </div>
+                    <div class="email space">
+                        <input type="Email" placeholder="Email">
+                    </div>
+                    <div class="email space">
+                        <input type="Email" placeholder="Subject">
+                    </div>
+                    <div class="massage space">
+                        <textarea name="" id="" cols="10" rows="5" placeholder="Massager "></textarea>
+                    </div>
+                    <div class="btn space">
+                        <a href="#"> SEND </a>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+    </section>
+
+	<footer class="footer">
+		<div class="row"> 
+			<div class="social-icon"> 
+				<ul> 
+					<li title="Facebook"><a href="https://web.facebook.com/ruhitbaidya01" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a></li>
+					<li title="Androaid"><a href="#"><ion-icon name="logo-android"></ion-icon></a></li>
+					<li title="Github"><a href="https://github.com/ruhitbaidya" target="_blank"><ion-icon name="logo-github"></ion-icon></a></li>
+					<li title="Linkdin"><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+				</ul>
+			</div>
+			<p>Copyright &copy; Ruhit 2020</p>
+		</div>
+	</footer>
+
+   
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body></html>
